@@ -5,8 +5,7 @@ namespace FOXI\SDK;
 class HTTPClient
 {
     /** @var string */
-    //private $baseUrl = "https://foxi.com.br/api/v1";
-    private $baseUrl = "http://localhost/api/v1";
+    private $baseUrl = "https://foxi.com.br/api/v1";
 
     /** @var string */
     private $accessToken;
